@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
 
 import 'model/model.dart';
+import 'ui/details_page.dart';
+import 'ui/details_page1.dart';
 
 void main() => runApp(Home());
 
@@ -57,6 +59,19 @@ class SportTVState extends State<SportTV> with TickerProviderStateMixin {
   void dispose() {
     for (NavigationIconView view in _navigationViews) view.controller.dispose();
     super.dispose();
+  }
+
+  Widget _loadPage() {
+    Widget widget = new Container(width: 0.0, height: 0.0);
+    switch (_currentIndex) {
+      case 0:
+        widget = DetailsPage();
+        break;
+      case 1:
+        widget = DetailsPage1();
+        break;
+    }
+    return widget;
   }
 
   Widget _buildTransitionsStack() {
@@ -117,7 +132,7 @@ class SportTVState extends State<SportTV> with TickerProviderStateMixin {
         ],
       ),
       body: Center(
-        child: _buildTransitionsStack(),
+        child: _loadPage(),
       ),
       bottomNavigationBar: botNavBar,
     );
