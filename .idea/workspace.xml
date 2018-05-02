@@ -2,84 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1942ca01-1dff-4f1d-b6a0-a82155ac334e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/libraries/Dart_Packages.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/libraries/Dart_SDK.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/libraries/Flutter_Plugins.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/libraries/Flutter_for_Android.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/runConfigurations/main_dart.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/livestream_flutter/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/.metadata" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/src/main/kotlin/com/toandev/livestreamflutter/MainActivity.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/src/main/res/drawable/launch_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/android/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/assets/videos/intro.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Flutter/AppFrameworkInfo.plist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Flutter/Debug.xcconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Flutter/Release.xcconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Podfile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Podfile.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner.xcodeproj/project.pbxproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/AppDelegate.swift" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Base.lproj/Main.storyboard" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Info.plist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/ios/Runner/Runner-Bridging-Header.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/lib/main.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/lib/model/model.dart" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/livestream_flutter.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/livestream_flutter_android.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/pubspec.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/livestream_flutter/test/widget_test.dart" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,8 +17,8 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -102,12 +26,25 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new</find>
+      <find>const</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -170,6 +107,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,9 +239,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Dart Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25383827" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -317,7 +255,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -369,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
           <folding />
         </state>
       </provider>
