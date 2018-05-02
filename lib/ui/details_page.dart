@@ -1,6 +1,4 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
-import 'dart:convert';
 import 'package:html/parser.dart' show parse;
 
 class DetailsPage extends StatefulWidget {
@@ -11,7 +9,6 @@ class DetailsPage extends StatefulWidget {
 }
 
 class _DetailsPageState extends State<DetailsPage> {
-
   @override
   void initState() {
     super.initState();
@@ -19,10 +16,9 @@ class _DetailsPageState extends State<DetailsPage> {
 
   @override
   Widget build(BuildContext context) {
-    var document = parse(
-        '<body>Hello world! <a href="www.html5rocks.com">HTML5 rocks!');
-    print("testLogger="+document.outerHtml);
-    return new Text("Data test");
+    var document =
+        parse('<body>Hello world! <a href="www.html5rocks.com">HTML5 rocks!');
+    print("testLogger=" + document.outerHtml);
+    return new Text(document.outerHtml);
   }
-
 }

@@ -3,46 +3,13 @@ import 'package:scoped_model/scoped_model.dart';
 
 class BaseModel extends Model {
   var _currentIndex = 0;
-  BottomNavigationBarType _navigationType = BottomNavigationBarType.shifting;
-  List<NavigationIconView> _navigationViews;
-
-  set currentIndex(int current) {
-    _currentIndex = current;
-    notifyListeners();
-  }
 
   int get currentIndex => _currentIndex;
-
-  set initNavigation(List<NavigationIconView> listNavigation) {
-    assert(listNavigation != null);
-    _navigationViews = listNavigation;
-    notifyListeners();
-  }
-
-  BottomNavigationBarType get navigationType => _navigationType;
-
-  set initNavigationBarType(BottomNavigationBarType type) {
-    assert(type != null);
-    _navigationType = type;
-    notifyListeners();
-  }
-
-  List<NavigationIconView> get navigationViews => _navigationViews;
 }
 
 abstract class TabCurrentModel extends BaseModel {
-  void tabCurrentIndex() {
-    _currentIndex = _currentIndex;
-    notifyListeners();
-  }
-
-  void bottomNavigationBarType() {
-    _navigationType = _navigationType;
-    notifyListeners();
-  }
-
-  void listTab() {
-    _navigationViews = _navigationViews;
+  void clickTabCurrentIndex(int indexClicked) {
+    _currentIndex = indexClicked;
     notifyListeners();
   }
 }
@@ -65,7 +32,7 @@ class NavigationIconView {
           backgroundColor: color,
         ),
         controller = AnimationController(
-          duration: kThemeAnimationDuration,
+          duration: Duration(milliseconds: 500),
           vsync: vsync,
         ) {
     _animation = CurvedAnimation(

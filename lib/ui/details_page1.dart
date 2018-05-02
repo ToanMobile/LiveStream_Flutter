@@ -17,8 +17,8 @@ class _DetailsPageState1 extends State<DetailsPage1> {
   @override
   Widget build(BuildContext context) {
     var document =
-        parse('<body>Hello world! <a href="www.html5rocks.com">HTML5 rocks!');
+        parse('<body>Hhuhuhuhuhuu! <a href="www.html5rocks.com">HTML5 rocks!');
     print("testLogger=" + document.outerHtml);
-    return new Text("Data test");
+    return new Text(document.outerHtml);
   }
 }
