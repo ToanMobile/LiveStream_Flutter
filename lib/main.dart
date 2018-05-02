@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:scoped_model/scoped_model.dart';
+
+import 'model/model.dart';
 
 void main() => runApp(Home());
 
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: SportTV());
+    return ScopedModel<MainModel>(
+      model: MainModel(),
+      child: MaterialApp(home: SportTV()),
+    );
   }
 }
 
@@ -30,7 +36,7 @@ class SportTVState extends State<SportTV> with TickerProviderStateMixin {
         vsync: this,
       ),
       NavigationIconView(
-        icon: Icon(Icons.access_alarm),
+        icon: Icon(Icons.add_a_photo),
         title: 'Lịch',
         color: Colors.lightBlue,
         vsync: this,
@@ -114,85 +120,6 @@ class SportTVState extends State<SportTV> with TickerProviderStateMixin {
         child: _buildTransitionsStack(),
       ),
       bottomNavigationBar: botNavBar,
-    );
-  }
-}
-
-/////////// Utils //////
-class NavigationIconView {
-  NavigationIconView({
-    Widget icon,
-    String title,
-    Color color,
-    TickerProvider vsync,
-  })  : _icon = icon,
-        _color = color,
-        _title = title,
-        item = BottomNavigationBarItem(
-          icon: icon,
-          title: Text(title),
-          backgroundColor: color,
-        ),
-        controller = AnimationController(
-          duration: kThemeAnimationDuration,
-          vsync: vsync,
-        ) {
-    _animation = CurvedAnimation(
-      parent: controller,
-      curve: Interval(0.5, 1.0, curve: Curves.fastOutSlowIn),
-    );
-  }
-
-  final Widget _icon;
-  final Color _color;
-  final String _title;
-  final BottomNavigationBarItem item;
-  final AnimationController controller;
-  CurvedAnimation _animation;
-
-  FadeTransition transition(
-      BottomNavigationBarType type, BuildContext context) {
-    Color iconColor;
-    if (type == BottomNavigationBarType.shifting) {
-      iconColor = _color;
-    } else {
-      final ThemeData themeData = Theme.of(context);
-      iconColor = themeData.brightness == Brightness.light
-          ? themeData.primaryColor
-          : themeData.accentColor;
-    }
-
-    return FadeTransition(
-      opacity: _animation,
-      child: SlideTransition(
-        position: Tween<Offset>(
-          begin: Offset(0.0, 0.02), // Slightly down.
-          end: Offset.zero,
-        ).animate(_animation),
-        child: IconTheme(
-          data: IconThemeData(
-            color: iconColor,
-            size: 120.0,
-          ),
-          child: Semantics(
-            label: 'Placeholder for $_title tab',
-            child: _icon,
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class CustomIcon extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    final IconThemeData iconTheme = IconTheme.of(context);
-    return Container(
-      margin: EdgeInsets.all(4.0),
-      width: iconTheme.size - 8.0,
-      height: iconTheme.size - 8.0,
-      color: iconTheme.color,
     );
   }
 }
